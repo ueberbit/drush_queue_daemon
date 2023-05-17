@@ -1,0 +1,5 @@
+services:
+  drush_queue_daemon.commands:
+    class: \Drupal\drush_queue_daemon\Commands\DrushQueueDaemonCommands
+    tags:
+      - { name: drush.command }

@@ -1,0 +1,14 @@
+{
+    "name": "ueberbit/drush_queue_daemon",
+    "type": "drupal-drush",
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^11"
+            }
+        }
+    },
+    "require": {
+        "react/event-loop": "^1.4"
+    }
+}

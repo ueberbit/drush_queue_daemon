@@ -1,0 +1,5 @@
+name: Drush Queue Daemon
+type: module
+description: Provides additional queue commands for Drush.
+package: Custom
+core_version_requirement: ^9 || ^10
